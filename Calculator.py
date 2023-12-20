@@ -20,11 +20,11 @@ while True:
         if choice == '1':
             print(f"{num1} + {num2} = {round(cal.add(num1, num2), 2):,}")
         elif choice == '2':
-            print(f"{num1} + {num2} = {round(cal.add(num1, num2), 2):,}")
+            print(f"{num1} + {num2} = {round(cal.sub(num1, num2), 2):,}")
         elif choice == '3':
-            print(f"{num1} + {num2} = {round(cal.add(num1, num2), 2):,}")
+            print(f"{num1} + {num2} = {round(cal.multi(num1, num2), 2):,}")
         elif choice == '4':
-            print(f"{num1} + {num2} = {round(cal.add(num1, num2), 2):,}")
+            print(f"{num1} + {num2} = {round(cal.div(num1, num2), 2):,}")
 
         next_calculation = input("Let's do next calculation? (yes/no):")
         if next_calculation.lower() == "no":
